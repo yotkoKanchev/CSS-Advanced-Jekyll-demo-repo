@@ -16,6 +16,7 @@
 title: My test jekyll
 email: myemail@example.com
 description: This is my first touch with jekyll :)
+destination: docs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yotko_kanchev
