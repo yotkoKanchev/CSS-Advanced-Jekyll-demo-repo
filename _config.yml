@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: My test jekyll
+title: My test jekyll-site
 email: myemail@example.com
 description: This is my first touch with jekyll :)
 destination: docs
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/CSS-Advanced-Jekyll-demo-repo" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yotko_kanchev
-github_username:  yotko_kanchev
+github_username:  yotkoKanchev
 
 # Build settings
 future: true
@@ -39,3 +39,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - docs
