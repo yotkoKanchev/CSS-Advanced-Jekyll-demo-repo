@@ -19,19 +19,7 @@
             <p class="site-title"><a href="{{ site.baseurl }}/">{{site.title}}</a></p>
             {% endif %}
 
-            <nav class="site-nav">
-
-                <ul>
-                    {% for page in site.pages %}
-                        {% if page.title %}
-                            <li>
-                                <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-
-            </nav>
+           {% include navigation.html location="header" %}
 
         </header>
         
@@ -51,6 +39,8 @@
 
         <footer class="site-footer">
             <p>All rights reserved &copy; {{site.title}}</p>
+            {% include navigation.html location="footer" %}
+
         </footer>
 
     </div>
