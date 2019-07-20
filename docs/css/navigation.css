@@ -21,7 +21,7 @@
     display: block;
     padding: 0.5em 1em;
     border-radius: 0.3em;
-    background: #EEE;
+    /* background: #EEE; */
 }
 
 .site-nav a:hover {
